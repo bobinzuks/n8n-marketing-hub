@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "8n8-marketing": {
+      "command": "node",
+      "args": ["/home/terry/Desktop/customer-happy/marketing/mcp-server/dist/8n8-marketing-server.js"],
+      "env": {
+        "OPENAI_API_KEY": "your-openai-api-key-here",
+        "HUBSPOT_API_KEY": "your-hubspot-api-key",
+        "GOOGLE_ADS_API_KEY": "your-google-ads-api-key",
+        "FACEBOOK_ACCESS_TOKEN": "your-facebook-access-token",
+        "LINKEDIN_ACCESS_TOKEN": "your-linkedin-access-token",
+        "STRIPE_API_KEY": "your-stripe-api-key",
+        "REDIS_URL": "redis://localhost:6379",
+        "DATABASE_URL": "postgresql://username:password@localhost:5432/marketing_db"
+      }
+    }
+  }
+}

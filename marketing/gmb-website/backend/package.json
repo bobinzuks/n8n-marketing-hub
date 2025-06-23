@@ -1,0 +1,66 @@
+{
+  "name": "gmb-expert-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend API for GMB Expert Hub - Google My Business Q&A and Course Platform",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "openai": "^4.70.1",
+    "nodemailer": "^6.9.7",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "express-validator": "^7.0.1",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "sharp": "^0.33.1",
+    "puppeteer": "^21.6.1",
+    "redis": "^4.6.11",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1",
+    "@types/node": "^20.10.4"
+  },
+  "keywords": [
+    "google-my-business",
+    "gmb",
+    "local-seo",
+    "question-answer",
+    "courses",
+    "api",
+    "express",
+    "ai",
+    "openai"
+  ],
+  "author": "CustomerHappy Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/customerhappy/gmb-expert-hub"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
