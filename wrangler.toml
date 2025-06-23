@@ -1,0 +1,21 @@
+name = "n8n-marketing-hub"
+main = "marketing/mcp-server/8n8-marketing-server.ts"
+compatibility_date = "2024-06-23"
+node_compat = true
+
+[vars]
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "your-kv-namespace-id"
+preview_id = "your-preview-kv-namespace-id"
+
+[build]
+command = "cd marketing/mcp-server && npm run build"
+upload_dir = "./marketing/mcp-server/dist"
+
+# Custom domain configuration (add after purchasing domain)
+# routes = [
+#   { pattern = "n8nmarketing.com/*", custom_domain = true }
+# ]
